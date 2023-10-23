@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> a homepage of pw classes</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- for create a css file name is style2.css
+
+    npx tailwindcss -i ./src/input.css -o ./dist/style2.css --watch -->
+</head>
+
+<body class="bg-slate-950">
+    <!-- navbar goes here -->
+    <nav class="w-full h-14 bg-white flex justify-between p-3 md:px-4 items-center border-violet-700 border-t-2 ">
+        <div class="text-2xl text-violet-700 font-bold">pw skills</div>
+        <ul class="md:flex space-x-4 font-semibold hidden">
+            <li class="cursor-pointer">home</li>
+            <li class="cursor-pointer">about us</li>
+            <li class="cursor-pointer">contact us</li>
+        </ul>
+        <div class="hidden md:block px-2 py-2 bg-violet-700 text-white rounded cursor-pointer">login/signup</div>
+        <div class="md:hidden">
+            <a class="text-4xl" href=""> &#8801;</a>
+        </div>
+    </nav>
+    <!-- navbar ended -->
+    <header class="w-full h-auto flex justify-center">
+        <img class="h-[100vh]" src="pw2.svg" alt="">
+    </header>
+
+    <!-- student section -->
+
+    <div class="h-auto w-100 flex flex-wrap flex-col items-center text-center p-10">
+        <div class="w-full h-auto flex flex-wrap flex-col items-center ">
+            <p class="text-white font-bold text-2xl md:text-4xl text-center">"explore our ecosystem"</p>
+            <div class="w-36 h-1 border-b-4 border-violet-700 text-center mt-2 rounded-2xl mb-12"></div>
+        </div>
+        <div class="w-full flex flex-wrap justify-evenly">
+            <div class="w-46 flex flex-col">
+                <img class="h-32 w-auto" src="products-icon1.png" alt="">
+                <p class="text-3xl font-bold text-white mt-2">code labs</p>
+                <p class="text-3xl font-bold text-gray-500">PW skill lab</p>
+            </div>
+
+            <div class="w-46 flex flex-col">
+                <img class="h-32 w-auto" src="products-icon2.png" alt="">
+                <p class="text-3xl font-bold text-white mt-2"> portal</p>
+                <p class="text-3xl font-bold text-gray-500">differnt courses</p>
+            </div>
+
+            <div class="w-46 flex flex-col">
+                <img class="h-32 w-auto" src="products-icon4.png" alt="">
+                <p class="text-3xl font-bold text-white mt-2">job portal</p>
+                <p class="text-3xl font-bold text-gray-500">differnt courses</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- service page -->
+
+
+    <div class="h-auto w-100 flex flex-wrap flex-col items-center text-center p-10">
+        <div class="w-full h-auto flex flex-wrap flex-col items-center ">
+            <p class="text-white font-bold text-2xl md:text-4xl text-center">"our product"</p>
+            <div class="w-36 h-1 border-b-4 border-violet-700  text-center mt-2 rounded-2xl mb-12"></div>
+            <div class="w-[90%] flex flex-wrap justify-around ">
+                <div class="w-64 flex flex-col items-center mb-12 hover:border-violet-700  border-2  rounded-xl ">
+                    <img src="pw1.svg" alt="">
+                    <p class="text-3xl font-bold text-white">
+                        Live / Scheduled Lectures</p>
+                    <p class="text-xl  text-gray-400">Learning is an important step for achieving dreams in a students journey. We encourage the student to explore the concept in depth instead of memorizing.</p>
+                </div>
+                
+                <div class="w-64 flex flex-col items-center mb-12 hover:border-violet-700  border-2  rounded-xl ">
+                    <img src="pw2.svg" alt="">
+                    <p class="text-3xl font-bold text-white">Live Doubt Solving Sessions</p>
+                    <p class="text-xl  text-gray-400">At Physics Wallah we always encourage students to ask questions. We have created an atmosphere where students don’t hesitate to ask their doubts. </p>
+                </div>
+                <div class="w-64 flex flex-col items-center mb-12 hover:border-violet-700   border-2  rounded-xl">
+                    <img src="pw3.svg" alt="">
+                    <p class="text-3xl font-bold text-white">Structured And Targeted Study Material</p>
+                    <p class="text-xl  text-gray-400">Explore the art of concept with our structured material with intelligent question tackling and problem solving skills.</p>
+                </div>
+                <div class="w-64 flex flex-col items-center mb-12 hover:border-violet-700  border-2  rounded-xl">
+                    <img src="pw4.svg" alt="">
+                    <p class="text-3xl font-bold text-white">Tests On Regular Basis For Progress Tracking</p>
+                    <p class="text-xl  text-gray-400">It is a set of test papers designed to make the student comfortable with all possible varieties of questions along with the various ways</p>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <!-- footer started -->
+
+
+
+        <footer class="w-full  bg-gray-900 px-4 text-white pt-8 flex flex-col md:flex-row flex-wrap justify-between md:px-12 mt-5 mb-4 pb-3">
+            <div >
+                <img class="h-20 w-auto" src="group-18955.png" alt="">
+                <p class="my-4
+                ">Email us:computechsoftware@gmail.com</p>
+            </div>
+            <div>
+                <h2 class="font-bold text-3xl mt-4">PW skills</h2>
+                <div class="w-32 h-1 border-b-2 border-violet-700 rounded-2xl my-2"></div>
+                <div>about us</div>
+                <div>FAQs</div>
+                <div>privacy policy</div>
+            </div>
+
+            <div>
+                <h2 class="font-bold text-3xl mt-4">Products</h2>
+                <div class="w-32 h-1 border-b-2 border-violet-700 rounded-2xl my-2"></div>
+                <div>PW skill lab</div>
+                <div>Job portal</div>
+                <div>experience portal</div>
+                <div>become an affiliate</div>
+            </div>
+
+            <div>
+                <h2 class="font-bold text-3xl mt-4">Links</h2>
+                <div class="w-32 h-1 border-b-2 border-violet-700 rounded-2xl my-2"></div>
+                <div>Discord channel</div>
+                <div>PW youtube</div>
+                <div>Career</div>
+                
+            </div>
+
+            
+
+        </footer>
+ 
+
+
+
+
+
+    
+
+</body>
+
+</html>
